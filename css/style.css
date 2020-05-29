@@ -4,6 +4,10 @@ body{
     margin: 0 auto;
 }
 
+ul{
+    padding: 0px!important;
+}
+
 
 /* header css */
 .menu-principal{
@@ -40,8 +44,14 @@ main{
 /* main site css */
 .header-2{
     background-color: #ffffff;
-    width: 100%;
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.menu-urls{
     border-bottom: 3px solid #efefef;
+    height: 80px;
 }
 
 .menu ul li{
@@ -63,6 +73,26 @@ main{
 }
 
 .busca{
+    text-align: center;
     width: 30%;
     float: right;
+}
+
+.busca input{
+    background-image: url('../img/icone-search.png');
+    background-repeat: no-repeat;
+    background-position: 93%;
+
+    height: 10px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 3px;
+
+    border: 1px solid #d6d6d6;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
 }
