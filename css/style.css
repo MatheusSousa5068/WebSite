@@ -32,7 +32,6 @@ main, .content{
 .redes-sociais ul li{
     margin-left: 21px;
     display: inline-block;
-    float: left;
     list-style: none;
     padding-left: 11px;
 }
@@ -194,3 +193,19 @@ li.slick-active button{
     color: #9a9a9a;
 }
 
+.col-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+    
+}
+
+.bloco-texto{
+    margin-top: 3em;
+}
+
+h3{
+    font-weight: normal!important;
+}
