@@ -16,7 +16,7 @@ ul{
     height: 60px;
 }
 
-main{
+main, .content{
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -149,8 +149,8 @@ button:focus{
 .slick-dots li button{
     font-size: 0px;
     border: 5px solid #ffffff;
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     background: transparent;
     border-radius: 50%;
     cursor: pointer;
@@ -172,5 +172,26 @@ li.slick-active button{
 .slick-dots li{
     padding-left: 10px;
     display: inline-block;
+}
+
+.texto-destaque{
+    text-align: center;
+}
+
+.texto-destaque strong{
+    /*color: #646464;*/
+    color: #000000;
+}
+
+.texto-destaque h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #5c5b5b;
+    
+}
+
+.texto-destaque p{
+    font-size: 15px;
+    color: #9a9a9a;
 }
 
