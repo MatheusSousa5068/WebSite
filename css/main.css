@@ -266,6 +266,8 @@ body {
     
     .footer-2 p {
         padding: 10px;
+        padding-top: 16px;
+        text-align: center;
     }
     
     .clock {
