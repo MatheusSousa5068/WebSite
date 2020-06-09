@@ -87,6 +87,9 @@ body {
         float: left;
         position: relative;
     }
+    .slider{
+        height: 454px;
+    }
     button.slick-prev {
         font-size: 0px;
         border: none;
@@ -98,6 +101,7 @@ body {
         background-image: url(../img/anterior.png);
         top: 35%;
         left: 14%;
+        outline-style: none;
     }
     button.slick-next {
         font-size: 0px;
@@ -110,6 +114,7 @@ body {
         background-image: url(../img/proximo.png);
         top: 35%;
         right: 14%;
+        outline-style: none;
     }
     .slick-list {
         width: 100%!important;
@@ -142,6 +147,9 @@ body {
     .slick-dots li {
         padding-left: 10px;
         display: inline-block;
+    }
+    .texto{
+
     }
     
     .texto-destaque {
